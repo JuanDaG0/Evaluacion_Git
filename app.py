@@ -1,5 +1,10 @@
 def analizar (lista):
-    pass
+    suma = sum(lista)
+    mayor = max(lista)
+    return(
+        "suma": suma,
+        "mayor": mayor 
+    )
 
 if __main__=="__main__":
 
