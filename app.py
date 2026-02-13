@@ -1,5 +1,10 @@
 def analizar (lista):
-    pass
+    menor = min (lista)
+    promedio = sum (lista)/len(lista)
+    return {
+        "menor": menor, 
+        "promedio": promedio
+    }
 
 if __main__=="__main__":
 
